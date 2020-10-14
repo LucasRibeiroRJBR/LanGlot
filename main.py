@@ -100,6 +100,105 @@ def chama_ar():
 
     root_ar.mainloop()
 
+
+def chama_kr():
+    root_kr = Toplevel()
+
+
+    def play_1_kr():
+        pygame.init()
+        pygame.mixer.music.load('audios/coreano/1.mp3')
+        pygame.mixer.music.play()
+
+
+    def play_2_kr():
+        pygame.init()
+        pygame.mixer.music.load('audios/coreano/2.mp3')
+        pygame.mixer.music.play()
+
+    def play_3_kr():
+        pygame.init()
+        pygame.mixer.music.load('audios/coreano/3.mp3')
+        pygame.mixer.music.play()
+
+    def play_4_kr():
+        pygame.init()
+        pygame.mixer.music.load('audios/coreano/4.mp3')
+        pygame.mixer.music.play()
+
+    def play_5_kr():
+        pygame.init()
+        pygame.mixer.music.load('audios/coreano/5.mp3')
+        pygame.mixer.music.play()
+
+    def play_6_kr():
+        pygame.init()
+        pygame.mixer.music.load('audios/coreano/6.mp3')
+        pygame.mixer.music.play()
+
+    letreiro_kr = Label(root_kr, text = 'Greetings', font=('Arial', 16, 'bold'))
+
+    bt_1_kr = ttk.Button(root_kr, 
+                        text = 'Hello\n안녕', 
+                        image=bt_img_play, 
+                        command = play_1_kr, 
+                        style='estilo_bt.TButton', 
+                        compound="top", 
+                        width=25)
+
+    bt_2_kr = ttk.Button(root_kr, 
+                        text='How are you?\n어떻게 지내?', 
+                        image=bt_img_play, 
+                        command = play_2_kr, 
+                        style='estilo_bt.TButton', 
+                        compound="top", 
+                        width=25)
+
+
+    bt_3_kr = ttk.Button(root_kr, 
+                        text='I\'m fine!\n괜찮아요', 
+                        image=bt_img_play, 
+                        command = play_3_kr, 
+                        style='estilo_bt.TButton', 
+                        compound="top", 
+                        width=25)
+
+    bt_4_kr = ttk.Button(root_kr, 
+                        text='Good morning\n좋은 아침입니다', 
+                        image=bt_img_play, 
+                        command = play_4_kr, 
+                        style='estilo_bt.TButton', 
+                        compound="top", 
+                        width=25)
+
+    bt_5_kr = ttk.Button(root_kr, 
+                        text='Good afternoon\n좋은 오후입니다', 
+                        image=bt_img_play, 
+                        command = play_5_kr, 
+                        style='estilo_bt.TButton', 
+                        compound="top", 
+                        width=25)
+
+    bt_6_kr = ttk.Button(root_kr, 
+                        text='Good night\n     잘 자', 
+                        image=bt_img_play, 
+                        command = play_6_kr, 
+                        style='estilo_bt.TButton', 
+                        compound="top", 
+                        width=25)
+
+    # GRIDS
+    letreiro_kr.grid(row = 0, columnspan = 4)
+    bt_1_kr.grid(row = 1, column = 0)
+    bt_2_kr.grid(row = 1, column = 1)   
+    bt_3_kr.grid(row = 1, column = 2)
+    bt_4_kr.grid(row = 2, column = 0)
+    bt_5_kr.grid(row = 2, column = 1)
+    bt_6_kr.grid(row = 2, column = 2)
+
+    root_kr.mainloop()
+
+
 root = Tk()
 root.title('LanGlot')
 
@@ -202,7 +301,7 @@ botao_ar = ttk.Button(root,
 
 botao_kr = ttk.Button(root, 
                       text='한국어', 
-                      #command=chama_kr, 
+                      command=chama_kr, 
                       image=bt_img_kr,
                       compound="top", 
                       style='estilo_bt.TButton', 

@@ -6,7 +6,6 @@ Um aplicativo que oferece áudios de frases simples em várias línguas
 ## ***Status do Projeto***  
 
 <table>
-<tr><th> </th><th></th></tr>
 <tr><td>
 
 |Idioma|Status|
@@ -29,7 +28,8 @@ Um aplicativo que oferece áudios de frases simples em várias línguas
 |Mandarim|❌|
 |Russo|❌|
 
-</td></tr> </table>
+</td></tr>
+</table>
 
  ---
  ## **Lucas Ribeiro**
