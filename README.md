@@ -12,7 +12,7 @@ Um aplicativo que oferece áudios de frases simples em várias línguas
 |--|--|
 |Alemão|❌|
 |Árabe|✅|
-|Coreano|❌|
+|Coreano|✅|
 |Espanhol|❌|
 |Francês|❌|
 |Hebraico|❌|
