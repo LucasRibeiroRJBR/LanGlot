@@ -4,16 +4,99 @@ from ttkthemes import ThemedStyle
 import pygame
 
 def chama_ar():
-    root_ar = Tk()
+    root_ar = Toplevel()
 
-    def play_ola_ar():
+
+    def play_1_ar():
         pygame.init()
-        pygame.mixer.music.load('audios/arabe/ola.mp3')
+        pygame.mixer.music.load('audios/arabe/1.mp3')
         pygame.mixer.music.play()
-        pygame.event.wait()
 
-    bt_play_ola_ar = ttk.Button(root_ar, text='Olá', image=bt_img_play, command = play_ola_ar, compound="top")
-    bt_play_ola_ar.grid(row = 0, column = 0)
+
+    def play_2_ar():
+        pygame.init()
+        pygame.mixer.music.load('audios/arabe/2.mp3')
+        pygame.mixer.music.play()
+
+    def play_3_ar():
+        pygame.init()
+        pygame.mixer.music.load('audios/arabe/3.mp3')
+        pygame.mixer.music.play()
+
+    def play_4_ar():
+        pygame.init()
+        pygame.mixer.music.load('audios/arabe/4.mp3')
+        pygame.mixer.music.play()
+
+    def play_5_ar():
+        pygame.init()
+        pygame.mixer.music.load('audios/arabe/5.mp3')
+        pygame.mixer.music.play()
+
+    def play_6_ar():
+        pygame.init()
+        pygame.mixer.music.load('audios/arabe/6.mp3')
+        pygame.mixer.music.play()
+
+    letreiro_ar = Label(root_ar, text = 'Greetings', font=('Arial', 16, 'bold'))
+
+    bt_1_ar = ttk.Button(root_ar, 
+                        text = 'Hello\nمرحبا', 
+                        image=bt_img_play, 
+                        command = play_1_ar, 
+                        style='estilo_bt.TButton', 
+                        compound="top", 
+                        width=25)
+
+    bt_2_ar = ttk.Button(root_ar, 
+                        text='How are you?\nكيف حالكم؟ ', 
+                        image=bt_img_play, 
+                        command = play_2_ar, 
+                        style='estilo_bt.TButton', 
+                        compound="top", 
+                        width=25)
+
+
+    bt_3_ar = ttk.Button(root_ar, 
+                        text='I\'m fine. Thank you!\n!أنا بخير ,شكرا لك', 
+                        image=bt_img_play, 
+                        command = play_3_ar, 
+                        style='estilo_bt.TButton', 
+                        compound="top", 
+                        width=25)
+
+    bt_4_ar = ttk.Button(root_ar, 
+                        text='Good morning\nصباح الخير', 
+                        image=bt_img_play, 
+                        command = play_4_ar, 
+                        style='estilo_bt.TButton', 
+                        compound="top", 
+                        width=25)
+
+    bt_5_ar = ttk.Button(root_ar, 
+                        text='Good afternoon\nمساء الخير', 
+                        image=bt_img_play, 
+                        command = play_5_ar, 
+                        style='estilo_bt.TButton', 
+                        compound="top", 
+                        width=25)
+
+    bt_6_ar = ttk.Button(root_ar, 
+                        text='Good night\nتصبح على خير', 
+                        image=bt_img_play, 
+                        command = play_6_ar, 
+                        style='estilo_bt.TButton', 
+                        compound="top", 
+                        width=25)
+
+    # GRIDS
+    letreiro_ar.grid(row = 0, columnspan = 4)
+    bt_1_ar.grid(row = 1, column = 0)
+    bt_2_ar.grid(row = 1, column = 1)   
+    bt_3_ar.grid(row = 1, column = 2)
+    bt_4_ar.grid(row = 2, column = 0)
+    bt_5_ar.grid(row = 2, column = 1)
+    bt_6_ar.grid(row = 2, column = 2)
 
     root_ar.mainloop()
 
@@ -24,7 +107,7 @@ style = ThemedStyle(root)
 style.set_theme('breeze')
 
 bt_style = ttk.Style()
-bt_style.configure('estilo_bt.TButton', font=('Arial', 16, 'bold'))
+bt_style.configure('estilo_bt.TButton', font=('Arial', 16, 'bold'), ANCHOR=CENTER)
 
 letreiro = Label(root, text = '')
 letreiro.grid(row = 0, column = 0)

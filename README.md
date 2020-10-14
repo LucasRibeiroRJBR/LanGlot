@@ -1,8 +1,38 @@
-# LanGlot
- Um aplicativo que oferece áudios de frases simples de várias línguas
+# **LanGlot**
+Um aplicativo que oferece áudios de frases simples em várias línguas
  
  ---
- ## Lucas Ribeiro
+
+## ***Status do Projeto***  
+
+<table>
+<tr><th> </th><th></th></tr>
+<tr><td>
+
+|Idioma|Status|
+|--|--|
+|Alemão|❌|
+|Árabe|✅|
+|Coreano|❌|
+|Espanhol|❌|
+|Francês|❌|
+|Hebraico|❌|
+
+</td><td>
+
+|Idioma|Status|
+|--|--|
+|Inglês|❌|
+|Italiano|❌|
+|Japonês|❌|
+|Português|❌|
+|Mandarim|❌|
+|Russo|❌|
+
+</td></tr> </table>
+
+ ---
+ ## **Lucas Ribeiro**
 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/LucasRibeiroRJBR)](https://github.com/LucasRibeiroRJBR)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucas-santos-ribeiro//)](https://www.linkedin.com/in/lucas-santos-ribeiro/)
 [![Twitter Badge](https://img.shields.io/badge/-Twitter-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/lucas_sanri)](https://twitter.com/lucas_sanri)
