@@ -1,6 +1,12 @@
 # **LanGlot**
 Um aplicativo que oferece áudios de frases simples em várias línguas
  
+---
+## ScreenShots
+**Tela Inicial**  
+
+>![](https://snipboard.io/0jqyaA.jpg)
+
  ---
 
 ## ***Status do Projeto***  
@@ -33,8 +39,10 @@ Um aplicativo que oferece áudios de frases simples em várias línguas
 
 ---
 
-## Créditos  
+## ***Créditos***  
 Áudios extraídos dos sites [Forvo](forvo.com), [I Love Languages](http://ilovelanguages.org/), [ReversoContext](https://context.reverso.net/) e [Nemo Apps](nomeapps.com/phrasebooks)
+
+Ícones feitos por <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> e <a href="https://smashicons.com/" title="Smashicons">Smashicons</a> em <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 
  ---
  ## **Lucas Ribeiro**

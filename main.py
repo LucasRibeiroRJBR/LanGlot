@@ -10,9 +10,26 @@ def play(audio):
     pygame.mixer.music.play()
 
 
+def dimensao(dim):
+    # OBTENDO DIMENSÕES DO MONITOR
+    monitor_largura = dim.winfo_reqwidth()
+    monitor_altura = dim.winfo_reqheight()
+    
+    # OBTENDO LARGURA/ALTURA DO MONITOR E DA JANELA
+    posicao_horizontal = int(dim.winfo_screenwidth()/4 - monitor_largura/4)
+    posicao_horizontal = int(dim.winfo_screenheight()/4 - monitor_altura/4)
+    
+    # POSICIONANDO NO CENTRO DO MONITOR
+    dim.geometry(f"+{posicao_horizontal}+{posicao_horizontal}")
+    
+    # MANTÉM A JANELA FOCADA
+    dim.focus()
+
+
 def chama_ar():
     root_ar = Toplevel()
     root_ar.title('LanGlot - العربية')
+    dimensao(root_ar)
 
     def play_1_ar():
         play('audios/arabe/1.mp3')
@@ -98,6 +115,7 @@ def chama_ar():
 def chama_kr():
     root_kr = Toplevel()
     root_kr.title('LanGlot - 한국어')
+    dimensao(root_kr)
 
     def play_1_kr():
         play('audios/coreano/1.mp3')
@@ -183,6 +201,7 @@ def chama_kr():
 def chama_es():
     root_es = Toplevel()
     root_es.title('LanGlot - Español')
+    dimensao(root_es)
 
     def play_1_es():
         play('audios/espanhol/1.mp3')
@@ -268,6 +287,7 @@ def chama_es():
 def chama_ru():
     root_ru = Toplevel()
     root_ru.title('LanGlot - Русский')
+    dimensao(root_ru)
 
     def play_1_ru():
         play('audios/russo/1.mp3')
@@ -353,6 +373,7 @@ def chama_ru():
 def chama_cn():
     root_cn = Toplevel()
     root_cn.title('LanGlot - 官话')
+    dimensao(root_cn)
 
     def play_1_cn():
         play('audios/mandarim/1.mp3')
@@ -438,6 +459,7 @@ def chama_cn():
 def chama_jp():
     root_jp = Toplevel()
     root_jp.title('LanGlot - 日本語')
+    dimensao(root_jp)
 
     def play_1_jp():
         play('audios/japones/1.mp3')
@@ -523,6 +545,7 @@ def chama_jp():
 def chama_he():
     root_he = Toplevel()
     root_he.title('LanGlot - עברית')
+    dimensao(root_he)
 
     def play_1_he():
         play('audios/hebraico/1.mp3')
@@ -608,6 +631,7 @@ def chama_he():
 def chama_pt():
     root_pt = Toplevel()
     root_pt.title('LanGlot - Português')
+    dimensao(root_pt)
 
     def play_1_pt():
         play('audios/portugues/1.mp3')
@@ -693,6 +717,7 @@ def chama_pt():
 def chama_de():
     root_de = Toplevel()
     root_de.title('LanGlot - Deutsche')
+    dimensao(root_de)
 
     def play_1_de():
         play('audios/alemao/1.mp3')
@@ -778,6 +803,7 @@ def chama_de():
 def chama_fr():
     root_fr = Toplevel()
     root_fr.title('LanGlot - French')
+    dimensao(root_fr)
 
     def play_1_fr():
         play('audios/frances/1.mp3')
@@ -863,6 +889,7 @@ def chama_fr():
 def chama_it():
     root_it = Toplevel()
     root_it.title('LanGlot - Italiano')
+    dimensao(root_it)
 
     def play_1_it():
         play('audios/italiano/1.mp3')
@@ -948,6 +975,7 @@ def chama_it():
 def chama_en():
     root_en = Toplevel()
     root_en.title('LanGlot - English')
+    dimensao(root_en)
 
     def play_1_en():
         play('audios/ingles/1.mp3')
@@ -1032,6 +1060,8 @@ def chama_en():
 
 root = Tk()
 root.title('LanGlot')
+dimensao(root)
+root.iconbitmap(default='IMGS/icones/logo.ico')
 
 style = ThemedStyle(root)
 style.set_theme('breeze')
@@ -1040,6 +1070,7 @@ bt_style = ttk.Style()
 bt_style.configure('estilo_bt.TButton',
                    font=('Arial', 16, 'bold'),
                    ANCHOR=CENTER)
+                 
 
 # IMAGENS BANDEIRAS
 bt_img_de = PhotoImage(file="IMGS/bandeiras_paises/alemao.png")
