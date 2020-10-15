@@ -161,7 +161,7 @@ def chama_kr():
                          width=25)
 
     bt_6_kr = ttk.Button(root_kr,
-                         text='Good night\n     잘 자',
+                         text='Good night\n안녕히 주무세요',
                          image=bt_img_play,
                          command=play_6_kr,
                          style='estilo_bt.TButton',
@@ -562,7 +562,7 @@ def chama_he():
                          width=25)
 
     bt_3_he = ttk.Button(root_he,
-                         text='I\'m fine!\n!אני בסדר',
+                         text='I\'m fine, thank you!\n!טוב, תודה',
                          image=bt_img_play,
                          command=play_3_he,
                          style='estilo_bt.TButton',
@@ -586,7 +586,7 @@ def chama_he():
                          width=25)
 
     bt_6_he = ttk.Button(root_he,
-                         text='Good night\nלילה טוב',
+                         text='Good night\nהלילה',
                          image=bt_img_play,
                          command=play_6_he,
                          style='estilo_bt.TButton',
@@ -860,6 +860,176 @@ def chama_fr():
     root_fr.mainloop()
 
 
+def chama_it():
+    root_it = Toplevel()
+    root_it.title('LanGlot - Italiano')
+
+    def play_1_it():
+        play('audios/italiano/1.mp3')
+
+    def play_2_it():
+        play('audios/italiano/2.mp3')
+
+    def play_3_it():
+        play('audios/italiano/3.mp3')
+
+    def play_4_it():
+        play('audios/italiano/4.mp3')
+
+    def play_5_it():
+        play('audios/italiano/5.mp3')
+
+    def play_6_it():
+        play('audios/italiano/6.mp3')
+
+    letreiro_it = Label(root_it, image=lb_titulo_it,
+                        font=('Arial', 16, 'bold'))
+
+    bt_1_it = ttk.Button(root_it,
+                         text='Hello\nCiao',
+                         image=bt_img_play,
+                         command=play_1_it,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_2_it = ttk.Button(root_it,
+                         text='How are you?\nCome va?',
+                         image=bt_img_play,
+                         command=play_2_it,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_3_it = ttk.Button(root_it,
+                         text='I\'m fine!\nBene!',
+                         image=bt_img_play,
+                         command=play_3_it,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_4_it = ttk.Button(root_it,
+                         text='Good morning\nBuongiorno',
+                         image=bt_img_play,
+                         command=play_4_it,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_5_it = ttk.Button(root_it,
+                         text='Good afternoon\nBuon pomeriggio',
+                         image=bt_img_play,
+                         command=play_5_it,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_6_it = ttk.Button(root_it,
+                         text='Good night\nBuonanotte',
+                         image=bt_img_play,
+                         command=play_6_it,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    # GRIDS
+    letreiro_it.grid(row=0, columnspan=4)
+    bt_1_it.grid(row=1, column=0)
+    bt_2_it.grid(row=1, column=1)
+    bt_3_it.grid(row=1, column=2)
+    bt_4_it.grid(row=2, column=0)
+    bt_5_it.grid(row=2, column=1)
+    bt_6_it.grid(row=2, column=2)
+
+    root_it.mainloop()
+
+
+def chama_en():
+    root_en = Toplevel()
+    root_en.title('LanGlot - English')
+
+    def play_1_en():
+        play('audios/ingles/1.mp3')
+
+    def play_2_en():
+        play('audios/ingles/2.mp3')
+
+    def play_3_en():
+        play('audios/ingles/3.mp3')
+
+    def play_4_en():
+        play('audios/ingles/4.mp3')
+
+    def play_5_en():
+        play('audios/ingles/5.mp3')
+
+    def play_6_en():
+        play('audios/ingles/6.mp3')
+
+    letreiro_en = Label(root_en, image=lb_titulo_en,
+                        font=('Arial', 16, 'bold'))
+
+    bt_1_en = ttk.Button(root_en,
+                         text='Hello',
+                         image=bt_img_play,
+                         command=play_1_en,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_2_en = ttk.Button(root_en,
+                         text='How are you?',
+                         image=bt_img_play,
+                         command=play_2_en,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_3_en = ttk.Button(root_en,
+                         text='I\'m fine!',
+                         image=bt_img_play,
+                         command=play_3_en,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_4_en = ttk.Button(root_en,
+                         text='Good morning',
+                         image=bt_img_play,
+                         command=play_4_en,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_5_en = ttk.Button(root_en,
+                         text='Good afternoon',
+                         image=bt_img_play,
+                         command=play_5_en,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_6_en = ttk.Button(root_en,
+                         text='Good night',
+                         image=bt_img_play,
+                         command=play_6_en,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    # GRIDS
+    letreiro_en.grid(row=0, columnspan=4)
+    bt_1_en.grid(row=1, column=0)
+    bt_2_en.grid(row=1, column=1)
+    bt_3_en.grid(row=1, column=2)
+    bt_4_en.grid(row=2, column=0)
+    bt_5_en.grid(row=2, column=1)
+    bt_6_en.grid(row=2, column=2)
+
+    root_en.mainloop()
+
+
 root = Tk()
 root.title('LanGlot')
 
@@ -911,7 +1081,7 @@ botao_de = ttk.Button(root,
 
 botao_en = ttk.Button(root,
                       text='English',
-                      # command=chama_en,
+                      command=chama_en,
                       image=bt_img_en,
                       compound="top",
                       style='estilo_bt.TButton',
@@ -935,7 +1105,7 @@ botao_fr = ttk.Button(root,
 
 botao_it = ttk.Button(root,
                       text='Italiano',
-                      # command=chama_it,
+                      command=chama_it,
                       image=bt_img_it,
                       compound="top",
                       style='estilo_bt.TButton',
