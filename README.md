@@ -1,11 +1,17 @@
 # **LanGlot**
-Um aplicativo que oferece áudios de frases simples em várias línguas
+
+Um aplicativo com áudios de 12 idioma.  
+O objetivo é oferecer o primeiro contato com o idioma e ajudar a quem está escolhendo uma idioma para aprender.
  
 ---
-## ScreenShots
+## ***ScreenShots***
 **Tela Inicial**  
 
->![](https://snipboard.io/0jqyaA.jpg)
+>![](IMGS/screenshots/tela_inicial.png)
+
+**Janelas**
+
+![](IMGS/screenshots/janelas.png)
 
  ---
 
