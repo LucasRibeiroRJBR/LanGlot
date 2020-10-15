@@ -13,9 +13,9 @@ Um aplicativo que oferece áudios de frases simples em várias línguas
 |Alemão|❌|
 |Árabe|✅|
 |Coreano|✅|
-|Espanhol|❌|
+|Espanhol|✅|
 |Francês|❌|
-|Hebraico|❌|
+|Hebraico|✅|
 
 </td><td>
 
@@ -24,12 +24,17 @@ Um aplicativo que oferece áudios de frases simples em várias línguas
 |Inglês|❌|
 |Italiano|❌|
 |Japonês|❌|
-|Português|❌|
-|Mandarim|❌|
-|Russo|❌|
+|Português Europeu|✅|
+|Mandarim|✅|
+|Russo|✅|
 
 </td></tr>
 </table>
+
+---
+
+## Créditos  
+Áudios extraídos dos sites [Forvo](forvo.com), [I Love Languages](http://ilovelanguages.org/) e [ReversoContext](https://context.reverso.net/)
 
  ---
  ## **Lucas Ribeiro**
