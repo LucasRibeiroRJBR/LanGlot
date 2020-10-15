@@ -485,6 +485,102 @@ def chama_cn():
     root_cn.mainloop()
 
 
+def chama_jp():
+    root_jp = Toplevel()
+
+    def play_1_jp():
+        pygame.init()
+        pygame.mixer.music.load('audios/japones/1.mp3')
+        pygame.mixer.music.play()
+
+    def play_2_jp():
+        pygame.init()
+        pygame.mixer.music.load('audios/japones/2.mp3')
+        pygame.mixer.music.play()
+
+    def play_3_jp():
+        pygame.init()
+        pygame.mixer.music.load('audios/japones/3.mp3')
+        pygame.mixer.music.play()
+
+    def play_4_jp():
+        pygame.init()
+        pygame.mixer.music.load('audios/japones/4.mp3')
+        pygame.mixer.music.play()
+
+    def play_5_jp():
+        pygame.init()
+        pygame.mixer.music.load('audios/japones/5.mp3')
+        pygame.mixer.music.play()
+
+    def play_6_jp():
+        pygame.init()
+        pygame.mixer.music.load('audios/japones/6.mp3')
+        pygame.mixer.music.play()
+
+    letreiro_jp = Label(root_jp, image=lb_titulo_jp,
+                        font=('Arial', 16, 'bold'))
+
+    bt_1_jp = ttk.Button(root_jp,
+                         text='Hello\nこんにちは',
+                         image=bt_img_play,
+                         command=play_1_jp,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_2_jp = ttk.Button(root_jp,
+                         text='How are you?\nお元気ですか？',
+                         image=bt_img_play,
+                         command=play_2_jp,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_3_jp = ttk.Button(root_jp,
+                         text='I\'m fine!\n元気です',
+                         image=bt_img_play,
+                         command=play_3_jp,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_4_jp = ttk.Button(root_jp,
+                         text='Good morning\nおはようございます',
+                         image=bt_img_play,
+                         command=play_4_jp,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_5_jp = ttk.Button(root_jp,
+                         text='Good afternoon\nこんにちは',
+                         image=bt_img_play,
+                         command=play_5_jp,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_6_jp = ttk.Button(root_jp,
+                         text='Good night\nこんばんは',
+                         image=bt_img_play,
+                         command=play_6_jp,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    # GRIDS
+    letreiro_jp.grid(row=0, columnspan=4)
+    bt_1_jp.grid(row=1, column=0)
+    bt_2_jp.grid(row=1, column=1)
+    bt_3_jp.grid(row=1, column=2)
+    bt_4_jp.grid(row=2, column=0)
+    bt_5_jp.grid(row=2, column=1)
+    bt_6_jp.grid(row=2, column=2)
+
+    root_jp.mainloop()
+
+
 def chama_he():
     root_he = Toplevel()
 
@@ -809,7 +905,7 @@ botao_ch = ttk.Button(root,
 
 botao_jp = ttk.Button(root,
                       text='日本語',
-                      # command=chama_jp,
+                      command=chama_jp,
                       image=bt_img_jp,
                       compound="top",
                       style='estilo_bt.TButton',

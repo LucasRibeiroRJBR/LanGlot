@@ -23,7 +23,7 @@ Um aplicativo que oferece áudios de frases simples em várias línguas
 |--|--|
 |Inglês|❌|
 |Italiano|❌|
-|Japonês|❌|
+|Japonês|✅|
 |Português Europeu|✅|
 |Mandarim|✅|
 |Russo|✅|
