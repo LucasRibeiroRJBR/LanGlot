@@ -10,11 +10,11 @@ Um aplicativo que oferece áudios de frases simples em várias línguas
 
 |Idioma|Status|
 |--|--|
-|Alemão|❌|
+|Alemão|✅|
 |Árabe|✅|
 |Coreano|✅|
 |Espanhol|✅|
-|Francês|❌|
+|Francês|✅|
 |Hebraico|✅|
 
 </td><td>
@@ -34,7 +34,7 @@ Um aplicativo que oferece áudios de frases simples em várias línguas
 ---
 
 ## Créditos  
-Áudios extraídos dos sites [Forvo](forvo.com), [I Love Languages](http://ilovelanguages.org/) e [ReversoContext](https://context.reverso.net/)
+Áudios extraídos dos sites [Forvo](forvo.com), [I Love Languages](http://ilovelanguages.org/), [ReversoContext](https://context.reverso.net/) e [Nemo Apps](nomeapps.com/phrasebooks)
 
  ---
  ## **Lucas Ribeiro**

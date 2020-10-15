@@ -4,38 +4,33 @@ from ttkthemes import ThemedStyle
 import pygame
 
 
+def play(audio):
+    pygame.init()
+    pygame.mixer.music.load(audio)
+    pygame.mixer.music.play()
+
+
 def chama_ar():
     root_ar = Toplevel()
+    root_ar.title('LanGlot - العربية')
 
     def play_1_ar():
-        pygame.init()
-        pygame.mixer.music.load('audios/arabe/1.mp3')
-        pygame.mixer.music.play()
+        play('audios/arabe/1.mp3')
 
     def play_2_ar():
-        pygame.init()
-        pygame.mixer.music.load('audios/arabe/2.mp3')
-        pygame.mixer.music.play()
+        play('audios/arabe/2.mp3')
 
     def play_3_ar():
-        pygame.init()
-        pygame.mixer.music.load('audios/arabe/3.mp3')
-        pygame.mixer.music.play()
+        play('audios/arabe/3.mp3')
 
     def play_4_ar():
-        pygame.init()
-        pygame.mixer.music.load('audios/arabe/4.mp3')
-        pygame.mixer.music.play()
+        play('audios/arabe/4.mp3')
 
     def play_5_ar():
-        pygame.init()
-        pygame.mixer.music.load('audios/arabe/5.mp3')
-        pygame.mixer.music.play()
+        play('audios/arabe/5.mp3')
 
     def play_6_ar():
-        pygame.init()
-        pygame.mixer.music.load('audios/arabe/6.mp3')
-        pygame.mixer.music.play()
+        play('audios/arabe/6.mp3')
 
     letreiro_ar = Label(root_ar, image=lb_titulo_ar,
                         font=('Arial', 16, 'bold'))
@@ -102,36 +97,25 @@ def chama_ar():
 
 def chama_kr():
     root_kr = Toplevel()
+    root_kr.title('LanGlot - 한국어')
 
     def play_1_kr():
-        pygame.init()
-        pygame.mixer.music.load('audios/coreano/1.mp3')
-        pygame.mixer.music.play()
+        play('audios/coreano/1.mp3')
 
     def play_2_kr():
-        pygame.init()
-        pygame.mixer.music.load('audios/coreano/2.mp3')
-        pygame.mixer.music.play()
+        play('audios/coreano/2.mp3')
 
     def play_3_kr():
-        pygame.init()
-        pygame.mixer.music.load('audios/coreano/3.mp3')
-        pygame.mixer.music.play()
+        play('audios/coreano/3.mp3')
 
     def play_4_kr():
-        pygame.init()
-        pygame.mixer.music.load('audios/coreano/4.mp3')
-        pygame.mixer.music.play()
+        play('audios/coreano/4.mp3')
 
     def play_5_kr():
-        pygame.init()
-        pygame.mixer.music.load('audios/coreano/5.mp3')
-        pygame.mixer.music.play()
+        play('audios/coreano/5.mp3')
 
     def play_6_kr():
-        pygame.init()
-        pygame.mixer.music.load('audios/coreano/6.mp3')
-        pygame.mixer.music.play()
+        play('audios/coreano/6.mp3')
 
     letreiro_kr = Label(root_kr, image=lb_titulo_kr,
                         font=('Arial', 16, 'bold'))
@@ -198,36 +182,25 @@ def chama_kr():
 
 def chama_es():
     root_es = Toplevel()
+    root_es.title('LanGlot - Español')
 
     def play_1_es():
-        pygame.init()
-        pygame.mixer.music.load('audios/espanhol/1.mp3')
-        pygame.mixer.music.play()
+        play('audios/espanhol/1.mp3')
 
     def play_2_es():
-        pygame.init()
-        pygame.mixer.music.load('audios/espanhol/2.mp3')
-        pygame.mixer.music.play()
+        play('audios/espanhol/2.mp3')
 
     def play_3_es():
-        pygame.init()
-        pygame.mixer.music.load('audios/espanhol/3.mp3')
-        pygame.mixer.music.play()
+        play('audios/espanhol/3.mp3')
 
     def play_4_es():
-        pygame.init()
-        pygame.mixer.music.load('audios/espanhol/4.mp3')
-        pygame.mixer.music.play()
+        play('audios/espanhol/4.mp3')
 
     def play_5_es():
-        pygame.init()
-        pygame.mixer.music.load('audios/espanhol/5.mp3')
-        pygame.mixer.music.play()
+        play('audios/espanhol/5.mp3')
 
     def play_6_es():
-        pygame.init()
-        pygame.mixer.music.load('audios/espanhol/6.mp3')
-        pygame.mixer.music.play()
+        play('audios/espanhol/6.mp3')
 
     letreiro_es = Label(root_es, image=lb_titulo_es,
                         font=('Arial', 16, 'bold'))
@@ -294,36 +267,25 @@ def chama_es():
 
 def chama_ru():
     root_ru = Toplevel()
+    root_ru.title('LanGlot - Русский')
 
     def play_1_ru():
-        pygame.init()
-        pygame.mixer.music.load('audios/russo/1.mp3')
-        pygame.mixer.music.play()
+        play('audios/russo/1.mp3')
 
     def play_2_ru():
-        pygame.init()
-        pygame.mixer.music.load('audios/russo/2.mp3')
-        pygame.mixer.music.play()
+        play('audios/russo/2.mp3')
 
     def play_3_ru():
-        pygame.init()
-        pygame.mixer.music.load('audios/russo/3.mp3')
-        pygame.mixer.music.play()
+        play('audios/russo/3.mp3')
 
     def play_4_ru():
-        pygame.init()
-        pygame.mixer.music.load('audios/russo/4.mp3')
-        pygame.mixer.music.play()
+        play('audios/russo/4.mp3')
 
     def play_5_ru():
-        pygame.init()
-        pygame.mixer.music.load('audios/russo/5.mp3')
-        pygame.mixer.music.play()
+        play('audios/russo/5.mp3')
 
     def play_6_ru():
-        pygame.init()
-        pygame.mixer.music.load('audios/russo/6.mp3')
-        pygame.mixer.music.play()
+        play('audios/russo/6.mp3')
 
     letreiro_ru = Label(root_ru, image=lb_titulo_ru,
                         font=('Arial', 16, 'bold'))
@@ -390,133 +352,110 @@ def chama_ru():
 
 def chama_cn():
     root_cn = Toplevel()
-
+    root_cn.title('LanGlot - 官话')
 
     def play_1_cn():
-        pygame.init()
-        pygame.mixer.music.load('audios/mandarim/1.mp3')
-        pygame.mixer.music.play()
+        play('audios/mandarim/1.mp3')
 
     def play_2_cn():
-        pygame.init()
-        pygame.mixer.music.load('audios/mandarim/2.mp3')
-        pygame.mixer.music.play()
+        play('audios/mandarim/2.mp3')
 
     def play_3_cn():
-        pygame.init()
-        pygame.mixer.music.load('audios/mandarim/3.mp3')
-        pygame.mixer.music.play()
+        play('audios/mandarim/3.mp3')
 
     def play_4_cn():
-        pygame.init()
-        pygame.mixer.music.load('audios/mandarim/4.mp3')
-        pygame.mixer.music.play()
+        play('audios/mandarim/4.mp3')
 
     def play_5_cn():
-        pygame.init()
-        pygame.mixer.music.load('audios/mandarim/5.mp3')
-        pygame.mixer.music.play()
+        play('audios/mandarim/5.mp3')
 
     def play_6_cn():
-        pygame.init()
-        pygame.mixer.music.load('audios/mandarim/6.mp3')
-        pygame.mixer.music.play()
+        play('audios/mandarim/6.mp3')
 
-    letreiro_cn = Label(root_cn, image = lb_titulo_ch, font=('Arial', 16, 'bold'))
+    letreiro_cn = Label(root_cn, image=lb_titulo_ch,
+                        font=('Arial', 16, 'bold'))
 
-    bt_1_cn = ttk.Button(root_cn, 
-                        text = 'Hello\n你好', 
-                        image=bt_img_play, 
-                        command = play_1_cn, 
-                        style='estilo_bt.TButton', 
-                        compound="top", 
-                        width=25)
+    bt_1_cn = ttk.Button(root_cn,
+                         text='Hello\n你好',
+                         image=bt_img_play,
+                         command=play_1_cn,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
 
-    bt_2_cn = ttk.Button(root_cn, 
-                        text='How are you?\n你好吗?', 
-                        image=bt_img_play, 
-                        command = play_2_cn, 
-                        style='estilo_bt.TButton', 
-                        compound="top", 
-                        width=25)
+    bt_2_cn = ttk.Button(root_cn,
+                         text='How are you?\n你好吗?',
+                         image=bt_img_play,
+                         command=play_2_cn,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
 
+    bt_3_cn = ttk.Button(root_cn,
+                         text='I\'m fine!\n很好!',
+                         image=bt_img_play,
+                         command=play_3_cn,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
 
-    bt_3_cn = ttk.Button(root_cn, 
-                        text='I\'m fine!\n很好!', 
-                        image=bt_img_play, 
-                        command = play_3_cn, 
-                        style='estilo_bt.TButton', 
-                        compound="top", 
-                        width=25)
+    bt_4_cn = ttk.Button(root_cn,
+                         text='Good morning\n早上好',
+                         image=bt_img_play,
+                         command=play_4_cn,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
 
-    bt_4_cn = ttk.Button(root_cn, 
-                        text='Good morning\n早上好', 
-                        image=bt_img_play, 
-                        command = play_4_cn, 
-                        style='estilo_bt.TButton', 
-                        compound="top", 
-                        width=25)
+    bt_5_cn = ttk.Button(root_cn,
+                         text='Good afternoon\n下午好',
+                         image=bt_img_play,
+                         command=play_5_cn,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
 
-    bt_5_cn = ttk.Button(root_cn, 
-                        text='Good afternoon\n下午好', 
-                        image=bt_img_play, 
-                        command = play_5_cn, 
-                        style='estilo_bt.TButton', 
-                        compound="top", 
-                        width=25)
-
-    bt_6_cn = ttk.Button(root_cn, 
-                        text='Good night\n晚安', 
-                        image=bt_img_play, 
-                        command = play_6_cn, 
-                        style='estilo_bt.TButton', 
-                        compound="top", 
-                        width=25)
+    bt_6_cn = ttk.Button(root_cn,
+                         text='Good night\n晚安',
+                         image=bt_img_play,
+                         command=play_6_cn,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
 
     # GRIDS
-    letreiro_cn.grid(row = 0, columnspan = 4)
-    bt_1_cn.grid(row = 1, column = 0)
-    bt_2_cn.grid(row = 1, column = 1)   
-    bt_3_cn.grid(row = 1, column = 2)
-    bt_4_cn.grid(row = 2, column = 0)
-    bt_5_cn.grid(row = 2, column = 1)
-    bt_6_cn.grid(row = 2, column = 2)
+    letreiro_cn.grid(row=0, columnspan=4)
+    bt_1_cn.grid(row=1, column=0)
+    bt_2_cn.grid(row=1, column=1)
+    bt_3_cn.grid(row=1, column=2)
+    bt_4_cn.grid(row=2, column=0)
+    bt_5_cn.grid(row=2, column=1)
+    bt_6_cn.grid(row=2, column=2)
 
     root_cn.mainloop()
 
 
 def chama_jp():
     root_jp = Toplevel()
+    root_jp.title('LanGlot - 日本語')
 
     def play_1_jp():
-        pygame.init()
-        pygame.mixer.music.load('audios/japones/1.mp3')
-        pygame.mixer.music.play()
+        play('audios/japones/1.mp3')
 
     def play_2_jp():
-        pygame.init()
-        pygame.mixer.music.load('audios/japones/2.mp3')
-        pygame.mixer.music.play()
+        play('audios/japones/2.mp3')
 
     def play_3_jp():
-        pygame.init()
-        pygame.mixer.music.load('audios/japones/3.mp3')
-        pygame.mixer.music.play()
+        play('audios/japones/3.mp3')
 
     def play_4_jp():
-        pygame.init()
-        pygame.mixer.music.load('audios/japones/4.mp3')
-        pygame.mixer.music.play()
+        play('audios/japones/4.mp3')
 
     def play_5_jp():
-        pygame.init()
-        pygame.mixer.music.load('audios/japones/5.mp3')
-        pygame.mixer.music.play()
+        play('audios/japones/5.mp3')
 
     def play_6_jp():
-        pygame.init()
-        pygame.mixer.music.load('audios/japones/6.mp3')
-        pygame.mixer.music.play()
+        play('audios/japones/6.mp3')
 
     letreiro_jp = Label(root_jp, image=lb_titulo_jp,
                         font=('Arial', 16, 'bold'))
@@ -583,133 +522,110 @@ def chama_jp():
 
 def chama_he():
     root_he = Toplevel()
-
+    root_he.title('LanGlot - עברית')
 
     def play_1_he():
-        pygame.init()
-        pygame.mixer.music.load('audios/hebraico/1.mp3')
-        pygame.mixer.music.play()
+        play('audios/hebraico/1.mp3')
 
     def play_2_he():
-        pygame.init()
-        pygame.mixer.music.load('audios/hebraico/2.mp3')
-        pygame.mixer.music.play()
+        play('audios/hebraico/2.mp3')
 
     def play_3_he():
-        pygame.init()
-        pygame.mixer.music.load('audios/hebraico/3.mp3')
-        pygame.mixer.music.play()
+        play('audios/hebraico/3.mp3')
 
     def play_4_he():
-        pygame.init()
-        pygame.mixer.music.load('audios/hebraico/4.mp3')
-        pygame.mixer.music.play()
+        play('audios/hebraico/4.mp3')
 
     def play_5_he():
-        pygame.init()
-        pygame.mixer.music.load('audios/hebraico/5.mp3')
-        pygame.mixer.music.play()
+        play('audios/hebraico/5.mp3')
 
     def play_6_he():
-        pygame.init()
-        pygame.mixer.music.load('audios/hebraico/6.mp3')
-        pygame.mixer.music.play()
+        play('audios/hebraico/6.mp3')
 
-    letreiro_he = Label(root_he, image = lb_titulo_he, font=('Arial', 16, 'bold'))
+    letreiro_he = Label(root_he, image=lb_titulo_he,
+                        font=('Arial', 16, 'bold'))
 
-    bt_1_he = ttk.Button(root_he, 
-                        text = 'Hello\nשלום', 
-                        image=bt_img_play, 
-                        command = play_1_he, 
-                        style='estilo_bt.TButton', 
-                        compound="top", 
-                        width=25)
+    bt_1_he = ttk.Button(root_he,
+                         text='Hello\nשלום',
+                         image=bt_img_play,
+                         command=play_1_he,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
 
-    bt_2_he = ttk.Button(root_he, 
-                        text='How are you?\n?מה שלומך', 
-                        image=bt_img_play, 
-                        command = play_2_he, 
-                        style='estilo_bt.TButton', 
-                        compound="top", 
-                        width=25)
+    bt_2_he = ttk.Button(root_he,
+                         text='How are you?\n?מה שלומך',
+                         image=bt_img_play,
+                         command=play_2_he,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
 
+    bt_3_he = ttk.Button(root_he,
+                         text='I\'m fine!\n!אני בסדר',
+                         image=bt_img_play,
+                         command=play_3_he,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
 
-    bt_3_he = ttk.Button(root_he, 
-                        text='I\'m fine!\n!אני בסדר', 
-                        image=bt_img_play, 
-                        command = play_3_he, 
-                        style='estilo_bt.TButton', 
-                        compound="top", 
-                        width=25)
+    bt_4_he = ttk.Button(root_he,
+                         text='Good morning\nבוקר טוב',
+                         image=bt_img_play,
+                         command=play_4_he,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
 
-    bt_4_he = ttk.Button(root_he, 
-                        text='Good morning\nבוקר טוב', 
-                        image=bt_img_play, 
-                        command = play_4_he, 
-                        style='estilo_bt.TButton', 
-                        compound="top", 
-                        width=25)
+    bt_5_he = ttk.Button(root_he,
+                         text='Good afternoon\nאחר הצהריים טובים',
+                         image=bt_img_play,
+                         command=play_5_he,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
 
-    bt_5_he = ttk.Button(root_he, 
-                        text='Good afternoon\nאחר הצהריים טובים', 
-                        image=bt_img_play, 
-                        command = play_5_he, 
-                        style='estilo_bt.TButton', 
-                        compound="top", 
-                        width=25)
-
-    bt_6_he = ttk.Button(root_he, 
-                        text='Good night\nלילה טוב', 
-                        image=bt_img_play, 
-                        command = play_6_he, 
-                        style='estilo_bt.TButton', 
-                        compound="top", 
-                        width=25)
+    bt_6_he = ttk.Button(root_he,
+                         text='Good night\nלילה טוב',
+                         image=bt_img_play,
+                         command=play_6_he,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
 
     # GRIDS
-    letreiro_he.grid(row = 0, columnspan = 4)
-    bt_1_he.grid(row = 1, column = 0)
-    bt_2_he.grid(row = 1, column = 1)   
-    bt_3_he.grid(row = 1, column = 2)
-    bt_4_he.grid(row = 2, column = 0)
-    bt_5_he.grid(row = 2, column = 1)
-    bt_6_he.grid(row = 2, column = 2)
+    letreiro_he.grid(row=0, columnspan=4)
+    bt_1_he.grid(row=1, column=0)
+    bt_2_he.grid(row=1, column=1)
+    bt_3_he.grid(row=1, column=2)
+    bt_4_he.grid(row=2, column=0)
+    bt_5_he.grid(row=2, column=1)
+    bt_6_he.grid(row=2, column=2)
 
     root_he.mainloop()
 
 
 def chama_pt():
     root_pt = Toplevel()
+    root_pt.title('LanGlot - Português')
 
     def play_1_pt():
-        pygame.init()
-        pygame.mixer.music.load('audios/portugues/1.mp3')
-        pygame.mixer.music.play()
+        play('audios/portugues/1.mp3')
 
     def play_2_pt():
-        pygame.init()
-        pygame.mixer.music.load('audios/portugues/2.mp3')
-        pygame.mixer.music.play()
+        play('audios/portugues/2.mp3')
 
     def play_3_pt():
-        pygame.init()
-        pygame.mixer.music.load('audios/portugues/3.mp3')
-        pygame.mixer.music.play()
+        play('audios/portugues/3.mp3')
 
     def play_4_pt():
-        pygame.init()
-        pygame.mixer.music.load('audios/portugues/4.mp3')
-        pygame.mixer.music.play()
+        play('audios/portugues/4.mp3')
 
     def play_5_pt():
-        pygame.init()
-        pygame.mixer.music.load('audios/portugues/5.mp3')
-        pygame.mixer.music.play()
+        play('audios/portugues/5.mp3')
 
     def play_6_pt():
-        pygame.init()
-        pygame.mixer.music.load('audios/portugues/6.mp3')
-        pygame.mixer.music.play()
+        play('audios/portugues/6.mp3')
 
     letreiro_pt = Label(root_pt, image=lb_titulo_pt,
                         font=('Arial', 16, 'bold'))
@@ -774,6 +690,176 @@ def chama_pt():
     root_pt.mainloop()
 
 
+def chama_de():
+    root_de = Toplevel()
+    root_de.title('LanGlot - Deutsche')
+
+    def play_1_de():
+        play('audios/alemao/1.mp3')
+
+    def play_2_de():
+        play('audios/alemao/2.mp3')
+
+    def play_3_de():
+        play('audios/alemao/3.mp3')
+
+    def play_4_de():
+        play('audios/alemao/4.mp3')
+
+    def play_5_de():
+        play('audios/alemao/5.mp3')
+
+    def play_6_de():
+        play('audios/alemao/6.mp3')
+
+    letreiro_de = Label(root_de, image=lb_titulo_de,
+                        font=('Arial', 16, 'bold'))
+
+    bt_1_de = ttk.Button(root_de,
+                         text='Hello\nHallo',
+                         image=bt_img_play,
+                         command=play_1_de,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_2_de = ttk.Button(root_de,
+                         text='How are you?\nWie gehts?',
+                         image=bt_img_play,
+                         command=play_2_de,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_3_de = ttk.Button(root_de,
+                         text='I\'m fine!\nMir geht es gut!',
+                         image=bt_img_play,
+                         command=play_3_de,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_4_de = ttk.Button(root_de,
+                         text='Good morning\nGut Morgen',
+                         image=bt_img_play,
+                         command=play_4_de,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_5_de = ttk.Button(root_de,
+                         text='Good afternoon\nGuten Nachmittag',
+                         image=bt_img_play,
+                         command=play_5_de,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_6_de = ttk.Button(root_de,
+                         text='Good night\nGute Nacht',
+                         image=bt_img_play,
+                         command=play_6_de,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    # GRIDS
+    letreiro_de.grid(row=0, columnspan=4)
+    bt_1_de.grid(row=1, column=0)
+    bt_2_de.grid(row=1, column=1)
+    bt_3_de.grid(row=1, column=2)
+    bt_4_de.grid(row=2, column=0)
+    bt_5_de.grid(row=2, column=1)
+    bt_6_de.grid(row=2, column=2)
+
+    root_de.mainloop()
+
+
+def chama_fr():
+    root_fr = Toplevel()
+    root_fr.title('LanGlot - French')
+
+    def play_1_fr():
+        play('audios/frances/1.mp3')
+
+    def play_2_fr():
+        play('audios/frances/2.mp3')
+
+    def play_3_fr():
+        play('audios/frances/3.mp3')
+
+    def play_4_fr():
+        play('audios/frances/4.mp3')
+
+    def play_5_fr():
+        play('audios/frances/5.mp3')
+
+    def play_6_fr():
+        play('audios/frances/6.mp3')
+
+    letreiro_fr = Label(root_fr, image=lb_titulo_fr,
+                        font=('Arial', 16, 'bold'))
+
+    bt_1_fr = ttk.Button(root_fr,
+                         text='Hello\nSalut',
+                         image=bt_img_play,
+                         command=play_1_fr,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_2_fr = ttk.Button(root_fr,
+                         text='How are you?\nComment allez-vous?',
+                         image=bt_img_play,
+                         command=play_2_fr,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_3_fr = ttk.Button(root_fr,
+                         text='I\'m fine!\nJe vais bien!',
+                         image=bt_img_play,
+                         command=play_3_fr,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_4_fr = ttk.Button(root_fr,
+                         text='Good morning\nBonjour',
+                         image=bt_img_play,
+                         command=play_4_fr,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_5_fr = ttk.Button(root_fr,
+                         text='Good afternoon\nBonne après-midi',
+                         image=bt_img_play,
+                         command=play_5_fr,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    bt_6_fr = ttk.Button(root_fr,
+                         text='Good night\nBonne nuit',
+                         image=bt_img_play,
+                         command=play_6_fr,
+                         style='estilo_bt.TButton',
+                         compound="top",
+                         width=25)
+
+    # GRIDS
+    letreiro_fr.grid(row=0, columnspan=4)
+    bt_1_fr.grid(row=1, column=0)
+    bt_2_fr.grid(row=1, column=1)
+    bt_3_fr.grid(row=1, column=2)
+    bt_4_fr.grid(row=2, column=0)
+    bt_5_fr.grid(row=2, column=1)
+    bt_6_fr.grid(row=2, column=2)
+
+    root_fr.mainloop()
+
+
 root = Tk()
 root.title('LanGlot')
 
@@ -817,7 +903,7 @@ lb_titulo_he = PhotoImage(file="IMGS/titulos/hebraico.png")
 # BOTÕES
 botao_de = ttk.Button(root,
                       text='Deutsche',
-                      # command=chama_de,
+                      command=chama_de,
                       image=bt_img_de,
                       compound="top",
                       style='estilo_bt.TButton',
@@ -841,7 +927,7 @@ botao_es = ttk.Button(root,
 
 botao_fr = ttk.Button(root,
                       text='Français',
-                      # command=chama_fr,
+                      command=chama_fr,
                       image=bt_img_fr,
                       compound="top",
                       style='estilo_bt.TButton',
@@ -872,15 +958,15 @@ botao_he = ttk.Button(root,
                       width=20)
 
 botao_pt = ttk.Button(root,
-                         text='Português Europeu',
-                         command=chama_pt,
-                         image=bt_img_pt,
-                         compound="top",
-                         style='estilo_bt.TButton',
-                         width=20)
+                      text='Português Europeu',
+                      command=chama_pt,
+                      image=bt_img_pt,
+                      compound="top",
+                      style='estilo_bt.TButton',
+                      width=20)
 
 botao_ar = ttk.Button(root,
-                      text='اَلْعَرَبِيَّةُ',
+                      text='العربية',
                       command=chama_ar,
                       image=bt_img_ar,
                       compound="top",
