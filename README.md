@@ -11,7 +11,7 @@ O objetivo é oferecer o primeiro contato com o idioma e ajudar a quem está esc
 
 **Janelas**
 
-![](IMGS/screenshots/janelas.png)
+>![](IMGS/screenshots/janelas.png)
 
  ---
 
