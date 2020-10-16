@@ -36,7 +36,7 @@ def chama_ar():
                          width=25)
 
     bt_2_ar = ttk.Button(root_ar,
-                         text='How are you?\nكيف حالكم؟ ',
+                         text='How are you?\nحالك؟ كيف',
                          image=bt_img_play,
                          command=play_2_ar,
                          style='estilo_bt.TButton',
@@ -44,7 +44,7 @@ def chama_ar():
                          width=25)
 
     bt_3_ar = ttk.Button(root_ar,
-                         text='I\'m fine. Thank you!\n!أنا بخير ,شكرا لك',
+                         text='I\'m fine!\n!بخير أنا',
                          image=bt_img_play,
                          command=play_3_ar,
                          style='estilo_bt.TButton',
@@ -52,7 +52,7 @@ def chama_ar():
                          width=25)
 
     bt_4_ar = ttk.Button(root_ar,
-                         text='Good morning\nصباح الخير',
+                         text='Good morning\nالخير صباح',
                          image=bt_img_play,
                          command=play_4_ar,
                          style='estilo_bt.TButton',
@@ -60,7 +60,7 @@ def chama_ar():
                          width=25)
 
     bt_5_ar = ttk.Button(root_ar,
-                         text='Good afternoon\nمساء الخير',
+                         text='Good afternoon\nالخير مساء',
                          image=bt_img_play,
                          command=play_5_ar,
                          style='estilo_bt.TButton',
@@ -68,7 +68,7 @@ def chama_ar():
                          width=25)
 
     bt_6_ar = ttk.Button(root_ar,
-                         text='Good night\nتصبح على خير',
+                         text='Good night\nخير على تصبحين',
                          image=bt_img_play,
                          command=play_6_ar,
                          style='estilo_bt.TButton',
@@ -510,7 +510,7 @@ def chama_he():
                          width=25)
 
     bt_2_he = ttk.Button(root_he,
-                         text='How are you?\n?מה שלומך',
+                         text='How are you?\n?קורה מה',
                          image=bt_img_play,
                          command=play_2_he,
                          style='estilo_bt.TButton',
@@ -518,7 +518,7 @@ def chama_he():
                          width=25)
 
     bt_3_he = ttk.Button(root_he,
-                         text='I\'m fine, thank you!\n!טוב, תודה',
+                         text='I\'m fine, thank you\n תודה, טוב',
                          image=bt_img_play,
                          command=play_3_he,
                          style='estilo_bt.TButton',
@@ -526,7 +526,7 @@ def chama_he():
                          width=25)
 
     bt_4_he = ttk.Button(root_he,
-                         text='Good morning\nבוקר טוב',
+                         text='Good morning\nטוב בוקר',
                          image=bt_img_play,
                          command=play_4_he,
                          style='estilo_bt.TButton',
@@ -534,7 +534,7 @@ def chama_he():
                          width=25)
 
     bt_5_he = ttk.Button(root_he,
-                         text='Good afternoon\nאחר הצהריים טובים',
+                         text='Good afternoon\nטובים הצהריים אחר',
                          image=bt_img_play,
                          command=play_5_he,
                          style='estilo_bt.TButton',
@@ -542,7 +542,7 @@ def chama_he():
                          width=25)
 
     bt_6_he = ttk.Button(root_he,
-                         text='Good night\nהלילה',
+                         text='Good night\nטוב לילה',
                          image=bt_img_play,
                          command=play_6_he,
                          style='estilo_bt.TButton',
