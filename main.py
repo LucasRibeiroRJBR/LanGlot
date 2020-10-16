@@ -14,14 +14,14 @@ def dimensao(dim):
     # OBTENDO DIMENSÕES DO MONITOR
     monitor_largura = dim.winfo_reqwidth()
     monitor_altura = dim.winfo_reqheight()
-    
+
     # OBTENDO LARGURA/ALTURA DO MONITOR E DA JANELA
     posicao_horizontal = int(dim.winfo_screenwidth()/4 - monitor_largura/4)
     posicao_horizontal = int(dim.winfo_screenheight()/4 - monitor_altura/4)
-    
+
     # POSICIONANDO NO CENTRO DO MONITOR
     dim.geometry(f"+{posicao_horizontal}+{posicao_horizontal}")
-    
+
     # MANTÉM A JANELA FOCADA
     dim.focus()
 
@@ -31,23 +31,12 @@ def chama_ar():
     root_ar.title('LanGlot - العربية')
     dimensao(root_ar)
 
-    def play_1_ar():
-        play('audios/arabe/1.mp3')
-
-    def play_2_ar():
-        play('audios/arabe/2.mp3')
-
-    def play_3_ar():
-        play('audios/arabe/3.mp3')
-
-    def play_4_ar():
-        play('audios/arabe/4.mp3')
-
-    def play_5_ar():
-        play('audios/arabe/5.mp3')
-
-    def play_6_ar():
-        play('audios/arabe/6.mp3')
+    def play_1_ar(): play('audios/arabe/1.mp3')
+    def play_2_ar(): play('audios/arabe/2.mp3')
+    def play_3_ar(): play('audios/arabe/3.mp3')
+    def play_4_ar(): play('audios/arabe/4.mp3')
+    def play_5_ar(): play('audios/arabe/5.mp3')
+    def play_6_ar(): play('audios/arabe/6.mp3')
 
     letreiro_ar = Label(root_ar, image=lb_titulo_ar,
                         font=('Arial', 16, 'bold'))
@@ -117,26 +106,14 @@ def chama_kr():
     root_kr.title('LanGlot - 한국어')
     dimensao(root_kr)
 
-    def play_1_kr():
-        play('audios/coreano/1.mp3')
+    def play_1_kr(): play('audios/coreano/1.mp3')
+    def play_2_kr(): play('audios/coreano/2.mp3')
+    def play_3_kr(): play('audios/coreano/3.mp3')
+    def play_4_kr(): play('audios/coreano/4.mp3')
+    def play_5_kr(): play('audios/coreano/5.mp3')
+    def play_6_kr(): play('audios/coreano/6.mp3')
 
-    def play_2_kr():
-        play('audios/coreano/2.mp3')
-
-    def play_3_kr():
-        play('audios/coreano/3.mp3')
-
-    def play_4_kr():
-        play('audios/coreano/4.mp3')
-
-    def play_5_kr():
-        play('audios/coreano/5.mp3')
-
-    def play_6_kr():
-        play('audios/coreano/6.mp3')
-
-    letreiro_kr = Label(root_kr, image=lb_titulo_kr,
-                        font=('Arial', 16, 'bold'))
+    letreiro_kr = Label(root_kr, image=lb_titulo_kr, font=('Arial', 16, 'bold'))
 
     bt_1_kr = ttk.Button(root_kr,
                          text='Hello\n안녕',
@@ -203,26 +180,14 @@ def chama_es():
     root_es.title('LanGlot - Español')
     dimensao(root_es)
 
-    def play_1_es():
-        play('audios/espanhol/1.mp3')
+    def play_1_es(): play('audios/espanhol/1.mp3')
+    def play_2_es(): play('audios/espanhol/2.mp3')
+    def play_3_es(): play('audios/espanhol/3.mp3')
+    def play_4_es(): play('audios/espanhol/4.mp3')
+    def play_5_es(): play('audios/espanhol/5.mp3')
+    def play_6_es(): play('audios/espanhol/6.mp3')
 
-    def play_2_es():
-        play('audios/espanhol/2.mp3')
-
-    def play_3_es():
-        play('audios/espanhol/3.mp3')
-
-    def play_4_es():
-        play('audios/espanhol/4.mp3')
-
-    def play_5_es():
-        play('audios/espanhol/5.mp3')
-
-    def play_6_es():
-        play('audios/espanhol/6.mp3')
-
-    letreiro_es = Label(root_es, image=lb_titulo_es,
-                        font=('Arial', 16, 'bold'))
+    letreiro_es = Label(root_es, image=lb_titulo_es, font=('Arial', 16, 'bold'))
 
     bt_1_es = ttk.Button(root_es,
                          text='Hello\nHola',
@@ -289,26 +254,14 @@ def chama_ru():
     root_ru.title('LanGlot - Русский')
     dimensao(root_ru)
 
-    def play_1_ru():
-        play('audios/russo/1.mp3')
+    def play_1_ru(): play('audios/russo/1.mp3')
+    def play_2_ru(): play('audios/russo/2.mp3')
+    def play_3_ru(): play('audios/russo/3.mp3')
+    def play_4_ru(): play('audios/russo/4.mp3')
+    def play_5_ru(): play('audios/russo/5.mp3')
+    def play_6_ru(): play('audios/russo/6.mp3')
 
-    def play_2_ru():
-        play('audios/russo/2.mp3')
-
-    def play_3_ru():
-        play('audios/russo/3.mp3')
-
-    def play_4_ru():
-        play('audios/russo/4.mp3')
-
-    def play_5_ru():
-        play('audios/russo/5.mp3')
-
-    def play_6_ru():
-        play('audios/russo/6.mp3')
-
-    letreiro_ru = Label(root_ru, image=lb_titulo_ru,
-                        font=('Arial', 16, 'bold'))
+    letreiro_ru = Label(root_ru, image=lb_titulo_ru, font=('Arial', 16, 'bold'))
 
     bt_1_ru = ttk.Button(root_ru,
                          text='Hello\nПривет',
@@ -375,26 +328,14 @@ def chama_cn():
     root_cn.title('LanGlot - 官话')
     dimensao(root_cn)
 
-    def play_1_cn():
-        play('audios/mandarim/1.mp3')
+    def play_1_cn(): play('audios/mandarim/1.mp3')
+    def play_2_cn(): play('audios/mandarim/2.mp3')
+    def play_3_cn(): play('audios/mandarim/3.mp3')
+    def play_4_cn(): play('audios/mandarim/4.mp3')
+    def play_5_cn(): play('audios/mandarim/5.mp3')
+    def play_6_cn(): play('audios/mandarim/6.mp3')
 
-    def play_2_cn():
-        play('audios/mandarim/2.mp3')
-
-    def play_3_cn():
-        play('audios/mandarim/3.mp3')
-
-    def play_4_cn():
-        play('audios/mandarim/4.mp3')
-
-    def play_5_cn():
-        play('audios/mandarim/5.mp3')
-
-    def play_6_cn():
-        play('audios/mandarim/6.mp3')
-
-    letreiro_cn = Label(root_cn, image=lb_titulo_ch,
-                        font=('Arial', 16, 'bold'))
+    letreiro_cn = Label(root_cn, image=lb_titulo_ch, font=('Arial', 16, 'bold'))
 
     bt_1_cn = ttk.Button(root_cn,
                          text='Hello\n你好',
@@ -461,26 +402,14 @@ def chama_jp():
     root_jp.title('LanGlot - 日本語')
     dimensao(root_jp)
 
-    def play_1_jp():
-        play('audios/japones/1.mp3')
+    def play_1_jp(): play('audios/japones/1.mp3')
+    def play_2_jp(): play('audios/japones/2.mp3')
+    def play_3_jp(): play('audios/japones/3.mp3')
+    def play_4_jp(): play('audios/japones/4.mp3')
+    def play_5_jp(): play('audios/japones/5.mp3')
+    def play_6_jp(): play('audios/japones/6.mp3')
 
-    def play_2_jp():
-        play('audios/japones/2.mp3')
-
-    def play_3_jp():
-        play('audios/japones/3.mp3')
-
-    def play_4_jp():
-        play('audios/japones/4.mp3')
-
-    def play_5_jp():
-        play('audios/japones/5.mp3')
-
-    def play_6_jp():
-        play('audios/japones/6.mp3')
-
-    letreiro_jp = Label(root_jp, image=lb_titulo_jp,
-                        font=('Arial', 16, 'bold'))
+    letreiro_jp = Label(root_jp, image=lb_titulo_jp, font=('Arial', 16, 'bold'))
 
     bt_1_jp = ttk.Button(root_jp,
                          text='Hello\nこんにちは',
@@ -547,26 +476,14 @@ def chama_he():
     root_he.title('LanGlot - עברית')
     dimensao(root_he)
 
-    def play_1_he():
-        play('audios/hebraico/1.mp3')
+    def play_1_he(): play('audios/hebraico/1.mp3')
+    def play_2_he(): play('audios/hebraico/2.mp3')
+    def play_3_he(): play('audios/hebraico/3.mp3')
+    def play_4_he(): play('audios/hebraico/4.mp3')
+    def play_5_he(): play('audios/hebraico/5.mp3')
+    def play_6_he(): play('audios/hebraico/6.mp3')
 
-    def play_2_he():
-        play('audios/hebraico/2.mp3')
-
-    def play_3_he():
-        play('audios/hebraico/3.mp3')
-
-    def play_4_he():
-        play('audios/hebraico/4.mp3')
-
-    def play_5_he():
-        play('audios/hebraico/5.mp3')
-
-    def play_6_he():
-        play('audios/hebraico/6.mp3')
-
-    letreiro_he = Label(root_he, image=lb_titulo_he,
-                        font=('Arial', 16, 'bold'))
+    letreiro_he = Label(root_he, image=lb_titulo_he, font=('Arial', 16, 'bold'))
 
     bt_1_he = ttk.Button(root_he,
                          text='Hello\nשלום',
@@ -633,26 +550,14 @@ def chama_pt():
     root_pt.title('LanGlot - Português')
     dimensao(root_pt)
 
-    def play_1_pt():
-        play('audios/portugues/1.mp3')
+    def play_1_pt(): play('audios/portugues/1.mp3')
+    def play_2_pt(): play('audios/portugues/2.mp3')
+    def play_3_pt(): play('audios/portugues/3.mp3')
+    def play_4_pt(): play('audios/portugues/4.mp3')
+    def play_5_pt(): play('audios/portugues/5.mp3')
+    def play_6_pt(): play('audios/portugues/6.mp3')
 
-    def play_2_pt():
-        play('audios/portugues/2.mp3')
-
-    def play_3_pt():
-        play('audios/portugues/3.mp3')
-
-    def play_4_pt():
-        play('audios/portugues/4.mp3')
-
-    def play_5_pt():
-        play('audios/portugues/5.mp3')
-
-    def play_6_pt():
-        play('audios/portugues/6.mp3')
-
-    letreiro_pt = Label(root_pt, image=lb_titulo_pt,
-                        font=('Arial', 16, 'bold'))
+    letreiro_pt = Label(root_pt, image=lb_titulo_pt, font=('Arial', 16, 'bold'))
 
     bt_1_pt = ttk.Button(root_pt,
                          text='Hello\nOlá',
@@ -719,26 +624,14 @@ def chama_de():
     root_de.title('LanGlot - Deutsche')
     dimensao(root_de)
 
-    def play_1_de():
-        play('audios/alemao/1.mp3')
+    def play_1_de(): play('audios/alemao/1.mp3')
+    def play_2_de(): play('audios/alemao/2.mp3')
+    def play_3_de(): play('audios/alemao/3.mp3')
+    def play_4_de(): play('audios/alemao/4.mp3')
+    def play_5_de(): play('audios/alemao/5.mp3')
+    def play_6_de(): play('audios/alemao/6.mp3')
 
-    def play_2_de():
-        play('audios/alemao/2.mp3')
-
-    def play_3_de():
-        play('audios/alemao/3.mp3')
-
-    def play_4_de():
-        play('audios/alemao/4.mp3')
-
-    def play_5_de():
-        play('audios/alemao/5.mp3')
-
-    def play_6_de():
-        play('audios/alemao/6.mp3')
-
-    letreiro_de = Label(root_de, image=lb_titulo_de,
-                        font=('Arial', 16, 'bold'))
+    letreiro_de = Label(root_de, image=lb_titulo_de, font=('Arial', 16, 'bold'))
 
     bt_1_de = ttk.Button(root_de,
                          text='Hello\nHallo',
@@ -805,26 +698,14 @@ def chama_fr():
     root_fr.title('LanGlot - French')
     dimensao(root_fr)
 
-    def play_1_fr():
-        play('audios/frances/1.mp3')
+    def play_1_fr(): play('audios/frances/1.mp3')
+    def play_2_fr(): play('audios/frances/2.mp3')
+    def play_3_fr(): play('audios/frances/3.mp3')
+    def play_4_fr(): play('audios/frances/4.mp3')
+    def play_5_fr(): play('audios/frances/5.mp3')
+    def play_6_fr(): play('audios/frances/6.mp3')
 
-    def play_2_fr():
-        play('audios/frances/2.mp3')
-
-    def play_3_fr():
-        play('audios/frances/3.mp3')
-
-    def play_4_fr():
-        play('audios/frances/4.mp3')
-
-    def play_5_fr():
-        play('audios/frances/5.mp3')
-
-    def play_6_fr():
-        play('audios/frances/6.mp3')
-
-    letreiro_fr = Label(root_fr, image=lb_titulo_fr,
-                        font=('Arial', 16, 'bold'))
+    letreiro_fr = Label(root_fr, image=lb_titulo_fr, font=('Arial', 16, 'bold'))
 
     bt_1_fr = ttk.Button(root_fr,
                          text='Hello\nSalut',
@@ -891,26 +772,14 @@ def chama_it():
     root_it.title('LanGlot - Italiano')
     dimensao(root_it)
 
-    def play_1_it():
-        play('audios/italiano/1.mp3')
+    def play_1_it(): play('audios/italiano/1.mp3')
+    def play_2_it(): play('audios/italiano/2.mp3')
+    def play_3_it(): play('audios/italiano/3.mp3')
+    def play_4_it(): play('audios/italiano/4.mp3')
+    def play_5_it(): play('audios/italiano/5.mp3')
+    def play_6_it(): play('audios/italiano/6.mp3')
 
-    def play_2_it():
-        play('audios/italiano/2.mp3')
-
-    def play_3_it():
-        play('audios/italiano/3.mp3')
-
-    def play_4_it():
-        play('audios/italiano/4.mp3')
-
-    def play_5_it():
-        play('audios/italiano/5.mp3')
-
-    def play_6_it():
-        play('audios/italiano/6.mp3')
-
-    letreiro_it = Label(root_it, image=lb_titulo_it,
-                        font=('Arial', 16, 'bold'))
+    letreiro_it = Label(root_it, image=lb_titulo_it, font=('Arial', 16, 'bold'))
 
     bt_1_it = ttk.Button(root_it,
                          text='Hello\nCiao',
@@ -977,26 +846,14 @@ def chama_en():
     root_en.title('LanGlot - English')
     dimensao(root_en)
 
-    def play_1_en():
-        play('audios/ingles/1.mp3')
+    def play_1_en(): play('audios/ingles/1.mp3')
+    def play_2_en(): play('audios/ingles/2.mp3')
+    def play_3_en(): play('audios/ingles/3.mp3')
+    def play_4_en(): play('audios/ingles/4.mp3')
+    def play_5_en(): play('audios/ingles/5.mp3')
+    def play_6_en(): play('audios/ingles/6.mp3')
 
-    def play_2_en():
-        play('audios/ingles/2.mp3')
-
-    def play_3_en():
-        play('audios/ingles/3.mp3')
-
-    def play_4_en():
-        play('audios/ingles/4.mp3')
-
-    def play_5_en():
-        play('audios/ingles/5.mp3')
-
-    def play_6_en():
-        play('audios/ingles/6.mp3')
-
-    letreiro_en = Label(root_en, image=lb_titulo_en,
-                        font=('Arial', 16, 'bold'))
+    letreiro_en = Label(root_en, image=lb_titulo_en, font=('Arial', 16, 'bold'))
 
     bt_1_en = ttk.Button(root_en,
                          text='Hello',
@@ -1068,9 +925,9 @@ style.set_theme('breeze')
 
 bt_style = ttk.Style()
 bt_style.configure('estilo_bt.TButton',
-                   font=('Arial', 16, 'bold'),
+                   font=('Lucida Sans', 16, 'bold'),
                    ANCHOR=CENTER)
-                 
+
 
 # IMAGENS BANDEIRAS
 bt_img_de = PhotoImage(file="IMGS/bandeiras_paises/alemao.png")
